@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #FAF9F6;
+   
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 30px;
+}
+#navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500px;
+
+}
+i{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 5px 10px ;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-weight: 600;
+    background-color:white ;
+}
+#btn2{
+    border: none;
+    color: orangered;
+    background-color: bisque;
+}
+#main>h1{
+    font-size: 100px;
+    font-weight: 10;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+#main>img{
+    height: 250px;
+    width: 180px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translateY(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-3%,-1%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-3%,-1%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-3%,-1%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-3%,-1%) rotate(0deg);
+}
+
+#btm-left{
+    font-size: medium;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 18px;
+}
+#footer-right{
+    position: absolute;
+    bottom:10%;
+    right: 5%;
+}
